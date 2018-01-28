@@ -44,6 +44,7 @@ public class ChatServer{
 
 		try{
 			sendingSocket = new DatagramSocket();  
+			
 			ip = InetAddress.getByName("127.0.0.1");
 			readingSocket = new DatagramSocket(SERVER_IP);  
 			readArray = new byte[1024];  
